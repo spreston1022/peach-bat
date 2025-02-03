@@ -14,8 +14,11 @@ export function rateLimitKey(
   policyName: string,
 ): CustomRateLimitDetails | undefined {
 
+  context.log.debug("here")
+  context.log.error(request.headers.get("x-id"));
+
   const details: CustomRateLimitDetails = {
-    key: request.headers.get("true-client-ip"),
+    key: request.headers.get("x-id"),
   };
 
   return details;
