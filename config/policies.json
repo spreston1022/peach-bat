@@ -43,7 +43,7 @@
           "requestsAllowed": 3,
           "timeWindowMinutes": 1,
           "identifier": {
-            "module": "$import(./modules/rate-limiter)",
+            "module": "$import(./modules/code)",
             "export": "rateLimitKey"
           }
         }
