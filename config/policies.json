@@ -43,7 +43,7 @@
           "requestsAllowed": 3,
           "timeWindowMinutes": 1,
           "identifier": {
-            "module": "$import(./modules/code)",
+            "module": "$import(./modules/bot-id)",
             "export": "rateLimitKey"
           }
         }
